@@ -6,15 +6,13 @@ const quix_box= document.querySelector(".quix_box");
 const timeCount= quix_box.querySelector(".timer .timer_sec");
 const timeLine= quix_box.querySelector("header .time_line");
 const timeOff= quix_box.querySelector("header .time_text");
-//const welcome_info= document.querySelector(".welcome h3");
+
 
 const option_list=document.querySelector(".option_list");
 
 //if start button is clicked
 start_btn.onclick=()=>{
      info_box.classList.add("activeInfo");
-     //welcome_info.classList.add("activeWelcome");
-
 }
 
 //if exit button is clicked
